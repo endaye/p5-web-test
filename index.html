@@ -12,7 +12,8 @@
 
 <body>
 
-	<h1>hahah</h1>
+	<h1>endaye/p5-web-test: A test which processing runs well on website</h1>
+	<h4>source <a href="https://www.openprocessing.org/sketch/434620" target="_blank">url</a> by <a href="https://www.openprocessing.org/user/58012" target="_blank">Koï Koï</a></h4>
 	<script>
 		var constellation = [];
 		var n;
@@ -28,12 +29,14 @@
 				constellation.push(new star());
 			}
 			strokeWeight(.75);
-			stroke('#FFFFFF');
+			// stroke('#FFFFFF');
+			stroke('#000000');
 		}
 
 		function draw() {
 
-			background('#000000');
+			// background('#000000');
+			background('#FFFFFF');
 
 			for (var i = 0; i < constellation.length; i++) {
 				constellation[i].update();
